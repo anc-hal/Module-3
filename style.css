@@ -63,8 +63,13 @@ body{
 .navbar-header .icon-bar{
     right: 100px;
 }
-
+.navbar-toggler{
+    visibility: hidden;
+}
 @media (max-width:767px){
+    .navbar-toggler{
+        visibility: visible;
+    }
   .navbar-brand:focus, .navbar-brand{
     margin-left:10px;
   }
